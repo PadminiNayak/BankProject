@@ -21,7 +21,7 @@ public class BankProjectMain {
 
 		try {
 			// create an object of FileInputStream class to read excel file
-			FileInputStream fis = new FileInputStream("C:\\Users\\shirv\\OneDrive\\Documents\\Test-Case.xlsx");
+			FileInputStream fis = new FileInputStream("C:\\Users\\shirv\\OneDrive\\Documents\\Test-Data.xlsx");
 			// creating workbook instance that refers to .xls file
 			XSSFWorkbook workbook = new XSSFWorkbook(fis);
 			// creating a Sheet object
